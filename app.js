@@ -19,7 +19,7 @@ app.controller('newCtrl', ['$scope', 'Post', '$window', function($scope, Post, $
 app.directive('preview', function(){
   return {
     restrict: 'E',
-    templateUrl: '../show.html',
+    templateUrl: 'show.html',
     scope: false,
     replace: true
   }
